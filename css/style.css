@@ -38,7 +38,7 @@ preload CSS
   height: 100%;
   background-color: rgba(255, 0, 0, 0);
   opacity: 0;
-  transition-delay: 4s;
+  transition-delay: 6s;
   transition-duration: 0.4s;
   transform-style: ease;
   z-index: -20;
