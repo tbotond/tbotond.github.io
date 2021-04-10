@@ -99,9 +99,8 @@ ul li a{
   text-decoration: none;
   color: #000000;
   padding: 5px 10px;
-  background-color: #125674;
-  transition: 0.6s ease;
   background-color: rgba(255, 0, 0, 0);
+  transition: 0.6s ease;
 }
 
 ul li a:hover{
@@ -116,7 +115,7 @@ ul li a b{
   text-decoration: none;
   color: #000000;
   padding: 5px 15px;
-  background-color: #125674;
+  background-color: rgba(255, 0, 0, 0);
   transition: 0.6s ease;
 }
 
@@ -124,6 +123,7 @@ ul li b:hover{
   font-weight: 700;
   text-decoration: none;
   color: #ffffff;
+  background-color: rgba(255, 0, 0, 0);
 }
 
 /*--------------------------------------------------------------
