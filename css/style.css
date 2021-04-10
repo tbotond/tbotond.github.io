@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+  background-color: #000000;
+}
+/*------------------------------------------------------
+preload CSS
+------------------------------------------------------*/
+
+.preload{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  background-color: #000000;
+  transition-delay: 99999999s;
+  transition-duration: 0.5s;
+  transform-style: ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.preload-gif{
+  height: 200px;
+}
+
+.preload:hover{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 0, 0, 0);
+  opacity: 0;
+  transition-delay: 2s;
+  transition-duration: 0.4s;
+  transform-style: ease;
+  z-index: -20;
+}
+
+.paddingbottom20{
+  padding-bottom: 20px;
+}
+
+.biggerlineheight{
+  line-height: 40px;
+}
+/*------------------------------------------------------
+navigation bar CSS
+------------------------------------------------------*/
+.navbar {
+    width: 100%;
+    height: 78px;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    list-style-type: none;
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 0);
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    height: 70px;
+    margin-left: 15px;
+    margin-top: 13px;
+    background-color: rgba(255, 0, 0, 0);
+}
+.navbar-bg{
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  height: 78px;
+  background-color: rgba(255, 0, 0, 0);
+}
+
+ul{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 23px;
+  margin-top: 26px;
+}
+
+ul li{
+  display: inline-block;
+  background-color: rgba(255, 0, 0, 0);
+}
+
+ul li a{
+  font-weight: 400;
+  text-decoration: none;
+  color: #000000;
+  padding: 5px 10px;
+  background-color: #125674;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  font-weight: 600;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+ul li a b{
+  font-weight: 500;
+  text-decoration: none;
+  color: #000000;
+  padding: 5px 15px;
+  background-color: #125674;
+  transition: 0.6s ease;
+}
+
+ul li b:hover{
+  font-weight: 700;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*--------------------------------------------------------------
+Footer css
+--------------------------------------------------------------*/
+.footbar {
+    width: 100%;
+    height: 70px;
+    z-index: 9;
+    list-style-type: none;
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.footbar-bg{
+  position: fixed;
+  bottom: 0vh;
+  right: 0vh;
+  z-index: 9;
+  display: inline-block;
+  float: right;
+  height: 70px;
+  background-color: rgba(255, 0, 0, 0);
+}
+
+.footertext{
+  position: fixed;
+  bottom: 0vh;
+  right: 0vh;
+  z-index: 9;
+  list-style-type: none;
+  margin-bottom: 5px;
+  margin-right: 20px;
+  letter-spacing: 3px;
+  line-height: 15px;
+}
+
+h6{
+  font-weight: 300;
+  background-color: #1A1A1A;
+  color: #939393;
+  padding: 2px;
+}
+
+h6 a{
+  text-decoration: none;
+  background-color: #1A1A1A;
+  color: #125674;
+  transition: 0.4s ease;
+}
+
+h6 a:hover{
+  font-weight: 500;
+  color: #156C91;
+}
+
+/*---------------------------------------------------------
+content all page css
+---------------------------------------------------------*/
+
+.container{
+  width: 100vh;
+  background-color: rgba(255, 0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1{
+  color: #ffffff;
+  font-weight: 300;
+  color: #D5D5D5;
+  font-size: 50px;
+}
+
+h1 a{
+  font-weight: 500;
+  text-decoration: none;
+  color: #125674;
+  transition: 0.2s ease;
+}
+
+h1 a:hover{
+  font-weight: 700;
+  color: #156C91;
+}
+
+h2{
+  color: #ffffff;
+  font-weight: 200;
+  color: #D5D5D5;
+  font-size: 25px;
+}
+
+h2 a{
+  font-weight: 500;
+  text-decoration: none;
+  color: #125674;
+  transition: 0.2s ease;
+  font-size: 27px;
+}
+
+h2 a:hover{
+  font-weight: 700;
+  color: #156C91;
+}
+
+h3{
+  color: #ffffff;
+  font-weight: 500;
+  color: #D5D5D5;
+  font-size: 30px;
+}
+
+h4{
+  color: #ffffff;
+  font-weight: 200;
+  color: #D5D5D5;
+  font-size: 20px;
+}
+
+h4 a{
+  font-weight: 500;
+  text-decoration: none;
+  color: #125674;
+  transition: 0.2s ease;
+  font-size: 20px;
+}
+
+h4 a:hover{
+  font-weight: 600;
+  color: #156C91;
+}
+
+td{
+  padding: 15px;
+  text-align: center;
+}
+
+h5{
+  color: #ffffff;
+  font-weight: 300;
+  color: #D5D5D5;
+  font-size: 40px;
+}
+
+h5 a{
+  font-weight: 200;
+  text-decoration: none;
+  color: #125674;
+  transition: 0.2s ease;
+  font-size: 40px;
+}
+
+h5 a:hover{
+  font-weight: 500;
+  color: #156C91;
+}
+
+/*---------------------------------------------------------
+content main css
+---------------------------------------------------------*/
+
+.h2mainpage{
+  position: absolute;
+  left: 45%;
+  top: 70%;
+  z-index: 2;
+  margin-right: 3%;
+}
+
+.mainhorsehero{
+  position: absolute;
+  height: 100%;
+  left: 5%;
+  margin-right: 3%;
+}
+
+.h1mainpage{
+  position: absolute;
+  left: 45%;
+  top: 35%;
+  z-index: 2;
+}
+
+/*---------------------------------------------------------
+content about css
+---------------------------------------------------------*/
+
+.about1hero{
+  position: absolute;
+  top: 20%;
+  max-height: 65%;
+  max-width: 30%;
+  right: 5%;
+  border-radius: 7%;
+  border: 5px solid #125674;
+  z-index: 5;
+}
+
+.h1about1{
+  position: absolute;
+  top: 24%;
+  left: 5%;
+  margin-right: 40%;
+  z-index: 2;
+}
+
+.h2about1{
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  margin-right: 45%;
+  z-index: 2;
+}
+
+.h3about{
+  position: absolute;
+  top: 92%;
+  left: 5%;
+  margin-right: 40%;
+  z-index: 2;
+}
+
+.nyilgorgess{
+  vertical-align: middle;
+  height: 30px;
+  transition: 0.2s ease;
+}
+
+.nyilgorgess:hover{
+  height: 37px;
+  width:25px
+}
+
+.about2hero{
+  position: absolute;
+  top: 120%;
+  max-height: 65%;
+  max-width: 30%;
+  left: 5%;
+  border-radius: 7%;
+  border: 5px solid #125674;
+  z-index: 5;
+}
+
+.h1about2{
+  position: absolute;
+  top: 114%;
+  left: 40%;
+  margin-right: 5%;
+  z-index: 2;
+}
+
+.h2about2{
+  position: absolute;
+  top: 130%;
+  left: 40%;
+  margin-right: 5%;
+  z-index: 2;
+  padding-bottom: 80px;
+}
+
+/*---------------------------------------------------------
+content photography css
+---------------------------------------------------------*/
+
+.h2photography1{
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  max-width: 40%;
+  margin-right: 45%;
+  z-index: 2;
+  font-style: 200;
+  line-height: 35px;
+}
+
+.h2photography2{
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  max-width: 60%;
+  margin-right: 45%;
+  z-index: 2;
+  font-style: 200;
+  line-height: 35px;
+}
+
+.tablephoto{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  max-width: 20%;
+  text-align: center;
+  margin-right: 5%;
+  margin-bottom: 15%;
+}
+
+.catphoto{
+  max-width: 35vh;
+  border-radius: 7%;
+  border: 3px solid #125674;
+}
+
+.catphoto:hover{
+  border: 3px solid #156C91;
+}
+
+/*---------------------------------------------------------
+content videography css
+---------------------------------------------------------*/
+
+.h1videography{
+  position: absolute;
+  top: 17%;
+  left: 5%;
+  margin-right: 40%;
+  z-index: 2;
+}
+
+.h2videography{
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  max-width: 40%;
+  margin-right: 45%;
+  z-index: 2;
+  font-style: 200;
+  line-height: 35px;
+}
+
+/*---------------------------------------------------------
+content egyeb css
+---------------------------------------------------------*/
+
+.egyebimage1{
+  position: absolute;
+  top: 15%;
+  max-height: 35%;
+  max-width: 30%;
+  right: 5%;
+  border-radius: 7%;
+  border: 5px solid #125674;
+  z-index: 5;
+}
+
+.egyebimage2{
+  position: absolute;
+  top: 55%;
+  max-height: 35%;
+  max-width: 30%;
+  right: 5%;
+  border-radius: 7%;
+  border: 5px solid #125674;
+  z-index: 5;
+}
+
+.h1egyeb{
+  position: absolute;
+  top: 115%;
+  left: 8%;
+  right: 8%;
+}
+
+.egyebimage3{
+  position: absolute;
+  top: 134%;
+  max-height: 35%;
+  max-width: 32%;
+  left: 5%;
+  border-radius: 7%;
+  border: 5px solid #125674;
+  z-index: 5;
+}
+
+.h2egyeb2{
+  position: absolute;
+  top: 135%;
+  left: 40%;
+  margin-right: 5%;
+  z-index: 2;
+  padding-bottom: 80px;
+}
+
+.h2egyeb3{
+  position: absolute;
+  top: 180%;
+  left: 5%;
+  margin-right: 45%;
+  z-index: 2;
+}
+
+.egyebimage4{
+  position: absolute;
+  top: 185%;
+  max-height: 65%;
+  max-width: 35%;
+  right: 5%;
+  border-radius: 7%;
+  border: 5px solid #125674;
+  z-index: 5;
+}
+
+.h2egyeb4{
+  position: absolute;
+  top: 255%;
+  left: 40%;
+  margin-right: 5%;
+  z-index: 2;
+  padding-bottom: 80px;
+}
+
+.egyebimage5{
+  position: absolute;
+  top: 252%;
+  max-height: 35%;
+  max-width: 32%;
+  left: 5%;
+  border-radius: 7%;
+  border: 5px solid #125674;
+  z-index: 5;
+}
+
+/*---------------------------------------------------------
+content egyeb css
+---------------------------------------------------------*/
+
+.kapcsolathorse{
+  position: absolute;
+  height: 100vh;
+  right: 0%;
+}
+
+.h1kapcsolat{
+  position: absolute;
+  left: 3%;
+  top: 30%;
+  z-index: 2;
+  font-weight: 200;
+}
+
+.h2kapcsolat{
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  z-index: 2;
+  margin-right: 3%;
+}
+
+.kozmedicon{
+  vertical-align: middle;
+  height: 50px;
+}
