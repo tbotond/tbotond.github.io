@@ -366,14 +366,19 @@ content about css
 }
 
 .about2hero{
+  border-radius: 7%;
+  border: 5px solid #125674;
+  z-index: 5;
+}
+
+.about2plusplace{
   position: absolute;
   top: 120%;
   max-height: 65%;
   max-width: 30%;
   left: 5%;
-  border-radius: 7%;
-  border: 5px solid #125674;
-  z-index: 5;
+  z-index: -20;
+  padding-bottom: 80px;
 }
 
 .h1about2{
