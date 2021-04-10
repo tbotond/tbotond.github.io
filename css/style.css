@@ -559,8 +559,10 @@ content egyeb css
 
 .kapcsolathorse{
   position: absolute;
-  height: 100%;
   right: 0%;
+  bottom: 0%;
+  max-height: 100%;
+  max-width: 75%;
 }
 
 .h1kapcsolat{
