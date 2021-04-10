@@ -423,9 +423,8 @@ content photography css
   position: absolute;
   top: 20%;
   left: 50%;
-  max-width: 20%;
+  max-width: 20vh;
   text-align: center;
-  margin-right: 5%;
   margin-bottom: 15%;
 }
 
