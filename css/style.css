@@ -546,6 +546,12 @@ content egyeb css
   padding-bottom: 80px;
 }
 
+.egyebimage5{
+  border-radius: 7%;
+  border: 5px solid #125674;
+  z-index: 5;
+}
+
 .egzebimage5plusspace{
   position: absolute;
   top: 252%;
@@ -554,12 +560,6 @@ content egyeb css
   left: 5%;
   border-radius: 7%;
   padding-bottom: 80px;
-}
-
-.egyebimage5{
-  border-radius: 7%;
-  border: 5px solid #125674;
-  z-index: 5;
 }
 
 /*---------------------------------------------------------
