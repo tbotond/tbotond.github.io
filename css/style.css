@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
 html {
   scroll-behavior: smooth;
 }
@@ -6,7 +7,8 @@ html {
 *{
   margin: 0;
   padding: 0;
-  font-family: Raleway;
+  /*font-family: Raleway;*/
+  font-family: Nunito;
   background-color: #000000;
 }
 /*------------------------------------------------------
@@ -111,7 +113,8 @@ ul li a:hover{
 }
 
 ul li a b{
-  font-weight: 500;
+  /*font-weight: 500;*/
+  font-weight: 400;
   text-decoration: none;
   color: #000000;
   padding: 5px 15px;
@@ -176,7 +179,8 @@ h6 a{
 }
 
 h6 a:hover{
-  font-weight: 500;
+  /*font-weight: 500;*/
+  font-weight: 400;
   color: #156C91;
 }
 
@@ -199,7 +203,8 @@ h1{
 }
 
 h1 a{
-  font-weight: 500;
+  /*font-weight: 500;*/
+  font-weight: 400;
   text-decoration: none;
   color: #125674;
   transition: 0.2s ease;
@@ -220,7 +225,8 @@ h2{
 }
 
 h2 a{
-  font-weight: 500;
+  /*font-weight: 500;*/
+  font-weight: 400;
   text-decoration: none;
   color: #125674;
   transition: 0.2s ease;
@@ -235,7 +241,8 @@ h2 a:hover{
 
 h3{
   color: #D5D5D5;
-  font-weight: 500;
+  /*font-weight: 500;*/
+  font-weight: 400;
   font-size: 30px;
   background-color: rgba(255, 0, 0, 0);
 }
@@ -248,7 +255,8 @@ h4{
 }
 
 h4 a{
-  font-weight: 500;
+  /*font-weight: 500;*/
+  font-weight: 400;
   text-decoration: none;
   color: #125674;
   transition: 0.2s ease;
@@ -284,7 +292,8 @@ h5 a{
 }
 
 h5 a:hover{
-  font-weight: 500;
+  /*font-weight: 500;*/
+  font-weight: 400;
   color: #156C91;
 }
 
@@ -366,6 +375,8 @@ content about css
 }
 
 .about2hero{
+  max-height: 65vh;
+  max-width: 30vw;
   border-radius: 7%;
   border: 5px solid #125674;
   z-index: 5;
@@ -374,8 +385,8 @@ content about css
 .about2plusplace{
   position: absolute;
   top: 120%;
-  max-height: 65%;
-  max-width: 30%;
+  max-height: 65vh;
+  max-width: 30vw;
   left: 5%;
   padding-bottom: 80px;
 }
