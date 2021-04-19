@@ -15,7 +15,7 @@ html {
 preload CSS
 ------------------------------------------------------*/
 
-.preload{
+.elotoltes{
   position: fixed;
   width: 100%;
   height: 100%;
@@ -30,11 +30,11 @@ preload CSS
   text-align: center;
 }
 
-.preload-gif{
+.elotoltes-gif{
   height: 200px;
 }
 
-.preload:hover{
+.elotoltes:hover{
   position: fixed;
   width: 100%;
   height: 100%;
@@ -46,17 +46,17 @@ preload CSS
   z-index: -20;
 }
 
-.paddingbottom20{
+.alsopadding0{
   padding-bottom: 20px;
 }
 
-.biggerlineheight{
+.nagyobbsormagassag{
   line-height: 40px;
 }
 /*------------------------------------------------------
 navigation bar CSS
 ------------------------------------------------------*/
-.navbar {
+.navsav {
     width: 100%;
     height: 78px;
     position: fixed;
@@ -78,7 +78,7 @@ navigation bar CSS
     background-color: rgba(255, 0, 0, 0);
     z-index: 15;
 }
-.navbar-bg{
+.navsav-bg{
   display: inline-block;
   position: fixed;
   right: 0px;
@@ -139,7 +139,7 @@ ul li b:hover{
 /*--------------------------------------------------------------
 Footer css
 --------------------------------------------------------------*/
-.footbar {
+.lablec {
     width: 100%;
     height: 70px;
     z-index: 9;
@@ -148,7 +148,7 @@ Footer css
     background-color: rgba(255, 0, 0, 0);
 }
 
-.footbar-bg{
+.lablec-bg{
   position: fixed;
   bottom: 0vh;
   right: 0vh;
@@ -159,7 +159,7 @@ Footer css
   background-color: rgba(255, 0, 0, 0);
 }
 
-.footertext{
+.lablecszoveg{
   position: fixed;
   bottom: 0vh;
   right: 0vh;
@@ -195,7 +195,7 @@ h6 a:hover{
 content all page css
 ---------------------------------------------------------*/
 
-.container{
+.kontener{
   width: 100vh;
   background-color: rgba(255, 0, 0, 0);
   display: flex;
@@ -308,7 +308,7 @@ h5 a:hover{
 content main css
 ---------------------------------------------------------*/
 
-.h2mainpage{
+.h2fooldal{
   position: absolute;
   left: 45%;
   top: 70%;
@@ -316,7 +316,7 @@ content main css
   margin-right: 3%;
 }
 
-.mainhorsehero{
+.fooldalkep1{
   position: absolute;
   max-height: 100%;
   left: 5%;
@@ -324,7 +324,7 @@ content main css
   bottom: 0%;
 }
 
-.h1mainpage{
+.h1fooldal{
   position: absolute;
   left: 45%;
   top: 35%;
@@ -335,7 +335,7 @@ content main css
 content about css
 ---------------------------------------------------------*/
 
-.about1hero{
+.rolamkep1{
   position: absolute;
   top: 20%;
   max-height: 65%;
@@ -346,7 +346,7 @@ content about css
   z-index: 5;
 }
 
-.h1about1{
+.h1rolam1{
   position: absolute;
   top: 24%;
   left: 5%;
@@ -354,7 +354,7 @@ content about css
   z-index: 2;
 }
 
-.h2about1{
+.h2rolam1{
   position: absolute;
   top: 40%;
   left: 5%;
@@ -362,7 +362,7 @@ content about css
   z-index: 2;
 }
 
-.h3about{
+.h3rolam{
   position: absolute;
   top: 92%;
   left: 5%;
@@ -374,6 +374,7 @@ content about css
   vertical-align: middle;
   height: 30px;
   transition: 0.2s ease;
+  background-color: rgba(255, 0, 0, 0);
 }
 
 .nyilgorgess:hover{
@@ -381,7 +382,7 @@ content about css
   width:25px
 }
 
-.about2hero{
+.rolamkep2{
   max-height: 65vh;
   max-width: 30vw;
   border-radius: 7%;
@@ -389,7 +390,7 @@ content about css
   z-index: 5;
 }
 
-.about2plusplace{
+.rolam2pluszhely{
   position: absolute;
   top: 120%;
   max-height: 65vh;
@@ -398,7 +399,7 @@ content about css
   padding-bottom: 80px;
 }
 
-.h1about2{
+.h1rolam2{
   position: absolute;
   top: 114%;
   left: 40%;
@@ -406,7 +407,7 @@ content about css
   z-index: 2;
 }
 
-.h2about2{
+.h2rolam2{
   position: absolute;
   top: 130%;
   left: 40%;
@@ -419,7 +420,7 @@ content about css
 content photography css
 ---------------------------------------------------------*/
 
-.h2photography1{
+.h2fotozas1{
   position: absolute;
   top: 25%;
   left: 5%;
@@ -430,7 +431,7 @@ content photography css
   line-height: 35px;
 }
 
-.h2photography2{
+.h2fotozas2{
   position: absolute;
   bottom: 5%;
   left: 5%;
@@ -441,7 +442,7 @@ content photography css
   line-height: 35px;
 }
 
-.tablephoto{
+.fototablazat{
   position: absolute;
   top: 20%;
   left: 50%;
@@ -450,13 +451,13 @@ content photography css
   margin-bottom: 15%;
 }
 
-.catphoto{
+.fotokategoria{
   max-width: 35vh;
   border-radius: 7%;
   border: 3px solid #125674;
 }
 
-.catphoto:hover{
+.fotokategoria:hover{
   border: 3px solid #156C91;
 }
 
@@ -464,7 +465,7 @@ content photography css
 content videography css
 ---------------------------------------------------------*/
 
-.h1videography{
+.h1videozas{
   position: absolute;
   top: 17%;
   left: 5%;
@@ -472,7 +473,7 @@ content videography css
   z-index: 2;
 }
 
-.h2videography{
+.h2videozas{
   position: absolute;
   top: 30%;
   left: 5%;
@@ -487,7 +488,7 @@ content videography css
 content egyeb css
 ---------------------------------------------------------*/
 
-.egyebimage1{
+.egyebkep1{
   position: absolute;
   top: 15%;
   max-height: 35%;
@@ -498,7 +499,7 @@ content egyeb css
   z-index: 5;
 }
 
-.egyebimage2{
+.egyebkep2{
   position: absolute;
   top: 55%;
   max-height: 35%;
@@ -516,7 +517,7 @@ content egyeb css
   right: 8%;
 }
 
-.egyebimage3{
+.egyebkep3{
   position: absolute;
   top: 134%;
   max-height: 35%;
@@ -544,7 +545,7 @@ content egyeb css
   z-index: 2;
 }
 
-.egyebimage4{
+.egyebkep4{
   position: absolute;
   top: 185%;
   max-height: 65%;
@@ -564,13 +565,13 @@ content egyeb css
   padding-bottom: 80px;
 }
 
-.egyebimage5{
+.egyebkep5{
   border-radius: 7%;
   border: 5px solid #125674;
   z-index: 5;
 }
 
-.egzebimage5plusspace{
+.egyebkep5pluszhely{
   position: absolute;
   top: 252%;
   max-height: 35%;
@@ -584,7 +585,7 @@ content egyeb css
 content egyeb css
 ---------------------------------------------------------*/
 
-.kapcsolathorse{
+.kapcsolatkep1{
   position: absolute;
   right: 0%;
   bottom: 0%;
@@ -608,7 +609,7 @@ content egyeb css
   margin-right: 3%;
 }
 
-.kozmedicon{
+.kozmedikon{
   vertical-align: middle;
   height: 50px;
 }
