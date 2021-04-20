@@ -83,7 +83,6 @@ navigation bar CSS
   height: 72px;
   background-color: rgba(255, 255, 255, 0.15);
   border-radius: 10%;
-  transition: 0.6s ease;
 }
 .navsav-bg{
   display: inline-block;
